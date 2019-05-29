@@ -1,0 +1,547 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+	font-size: 14px;
+}
+.ustmenu{
+	width: 100%;
+	display: block;
+	background: #0089cf;
+	height: 46.075px;
+	color: #fff;
+	position: relative;
+	font-family: 'Gotham-Book';
+}
+.ustmenu-sol{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: auto;
+	float: left;
+}
+.ustmenu h2{
+	font-size: 23px;
+	margin: 0 15.360px;
+	font-weight: bold;
+}
+.hizlibuton{
+	cursor: pointer;
+	text-align: right;
+	font-size: 23px;
+}
+.hizlibuton-resim{
+	float: left;
+	margin-right: 7px;
+}
+
+.ustmenu-sag{
+	display: table;
+	float: right;
+	height: 100%;
+	width: 733.6px;
+}
+.ustmenu-sag-bloklar{
+	padding: 11.5px;
+	text-align: right;
+	font-size: 20px;
+	float: left;
+}
+.sosyalmedya{
+	height: 100%;
+	float: left;
+	width: auto;
+}
+.sosyalmedya-img{
+	padding: 0 15.36px;
+	width: 8.50px;
+	height: 100%;
+	float: left;
+	display: table;
+	color: #fff;
+}
+.sosyalmedya li{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.launguage{
+	background: #fff;
+	color: #0089cf;
+	font-weight: bold;
+	float: left;
+	padding: 9px;
+}
+.launguage a{
+	color: #0089cf;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 25px;
+	width: auto;
+	height: auto;
+}
+.ortamenu{
+	height: 153.6px;
+	width: 100%;
+	position: relative;
+}
+.kapsama{
+	background: #fff;
+	display: table;
+	width: 100%;
+}
+.ortamenuicerik{
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1459.2px;
+}
+.logo{
+	width: 122.88px;
+	height: 122.88px;
+	margin: 15.360px;
+	display: block;
+	float: left;
+}
+.ortamenusag{
+	display: block;
+	height: 153.6px;
+	float: right;
+	margin: 0 30.720px;
+}
+.ortamenusag-box{
+	height: 100%;
+	float: left;
+	padding: 0 15.360px;
+	text-transform: uppercase;
+	font-size: 19.5px;
+	text-align: center;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	color: #0089cf;
+	font-weight: bold;
+	line-height: 7.5;
+}
+.banner{
+	float: left;
+	width: 100%;
+	margin: auto;
+}
+/*Ana içerik*/
+
+.icerik{
+	width: 92%;
+	padding: 2% 4%;
+	float: left;
+	margin: auto;
+}
+.duyuru, .duyuru h2, .duyuru .duyuru-baslik a:hover{
+	color: #008cd5;
+}
+.duyuru{
+	float: left;
+/*	height: 459.075px;*/
+	height: auto;
+	width: 381.400px;
+	margin-left: 28.12px;
+	border: 1.52px solid;
+	border-radius: 3px;
+	padding: 28.125px;
+	padding-bottom: 0;
+/*
+	padding-bottom: 0;
+	padding-right: 0;
+*/
+}
+.duyuru-item{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	float: left;
+	margin-top: 7.68px;
+	position: relative;
+}
+.duyuru .duyuru-item .tarih, .duyuru .duyuru-button a{
+	color: #fff;
+	background-color: #008cd5;
+}
+.duyuru-item .tarih span{
+	font-size: 28px;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+}
+.duyuru-item .tarih{
+	width: 42px;
+	float: left;
+	display: table;
+	padding: 3.840px;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 3px;
+	font-weight: bolder;
+}
+.duyuru-baslik{
+	width: 293px;
+	height: 36.8px;
+	padding: 0 15.36px 15.36px;
+	font-size: 20px;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+}
+.duyuru-baslik a{
+	color: #4d4d4f;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.duyuru-item:after{
+	content: '';
+	height: 1.5px;
+	background: #e3e3e3;
+	width: 331px;
+	right: 0;
+	position: absolute;
+	bottom: 0.1px;
+}
+.duyuru-button{
+	float: right;
+	margin-top: 65px;
+	margin-right: -30px;
+}
+.duyuru-button a{
+/*
+	position: absolute;
+	right: -0.1vw;
+	bottom: -0.1vw;
+*/
+	text-decoration: none;
+	padding: 11.520px 30.720px;
+	font-size: 25px;
+	border-top-left-radius: 0.2vw;
+	letter-spacing: -0.05vw;
+	display: block;
+}
+/*Hızlı Bağlantılar*/
+
+.hizlibaglantilar{
+	width: 59%;
+	margin-right: 1%;
+	margin-left: 2%;
+	padding: 2%;
+	display: table;
+	border: 1.52px solid;
+	position: relative;
+	border-radius: 3px;
+	float: left;
+}
+.hizlibaglantilar h2{
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 1.5vw;
+	margin-bottom: 1vw;
+	margin-top: 0.5vw;
+}
+.hizlibaglantilar, .hizlibaglantilar h2{
+	color: #008cd5;
+}
+.hizli-item{
+	width: 90%;
+	float: left;
+	display: table;
+	position: relative;
+	padding-left: 0px;
+}
+.hizli-item li{
+	width: 45%;
+	display: block;
+	float: left;
+	height: 184px;
+	position: relative;
+	overflow: hidden;
+	margin-right: 3%;
+	border-radius: 3px;
+	margin-left: 2%;
+	margin-top: 30px;
+}
+
+.hizlisosyal{
+	width: 10%;
+	position: absolute;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	top: 0;
+	background: #0089cf;
+	float: left;
+}
+.hizlisosyal-blok{
+	width: 88.6px;
+	height: 378.4px;
+}
+.hizlisosyal-blok-resim{
+	width: 90.4px;
+	height: 76.8px;
+	cursor: pointer;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+}
+.hizlisosyal-blok-resim h3{
+	color: #fff;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 15.36px;
+	font-size: 25px;
+}
+
+.bulten{
+	width: 31%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #ffdc00;
+	height: 778.40px;
+/*	float: left;*/
+}
+.bultenlogo{
+	width: 100%;
+}
+.bulten h1{
+	color: #373737;
+	margin-left: 23.04px;
+	font-size: 48px;
+}
+
+.bultenform{
+	display: block;
+	width: 88%;
+	margin: 38.4px auto;
+	border: 1.5px solid;
+	overflow: hidden;
+}
+
+input.bultenmail{
+	border: none;
+	padding: 15.36px 19.20px;
+	height: 22.4px;
+/*	height: 287.7px;*/
+	float: left;
+	font-size: 20px;
+}
+
+.bulten-submit{
+	border: none;
+	display: table-cell;
+	background: #373737;
+	color: #fff;
+	width: 24%;
+	float: left;
+	height: 53.1px;
+	font-size: 25px;
+	cursor: pointer;
+	text-align: center;
+}
+/*Footer*/
+
+.footericerik{
+	display: table;
+	width: 88.5%;
+	padding: 2% 5%;
+	float: left;
+}
+.footer-menu{
+	float: left;;
+	
+}
+.footer-menu li{
+	display: block;
+	float: left;
+	width: auto;
+	padding: 11.25px 40.44px;
+/*	margin-left: 12.04px;*/
+	color: #008cd5;
+}
+.footer-menu li a{
+	font-size: 23px;
+	color: #008cd5;
+	text-align: left;
+	display: table;
+	font-weight: bold;
+}
+.sub-menu{
+	float: left;
+	padding: 0;
+}
+.footer-menu li ul li{
+	float: unset;
+	text-align: left;
+	margin: 0;
+	cursor: pointer;
+	text-decoration: none;
+	display: block;
+	padding: 3.840px 0;
+	font-size: 19px;
+	color: #0089cf;
+}
+.footertelefon{
+	width: 138.2px;;
+	height: 62.9px;
+	display: block;
+	float: left;
+	margin-top: 18px;
+}
+.sol-menu{
+	display: table;
+	width: 25%;
+	float: left;
+	margin: 2% 1%;
+	padding-top: 3%;
+	background: rgb(255, 255, 255);
+	color: #0089cf;
+	position: relative;
+	z-index: 5;
+	margin-left: 30.72px;
+	padding-left: 0;
+}
+.sol-menu li{
+	display: block;
+	width: 85%;
+	padding: 1%;
+	margin: 0 auto;
+}
+.sol-menu li a{
+	text-decoration: none;
+	color: #0089cf;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	position: relative;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.singletitle{
+	display: block;
+	float: left;
+	background: #0089cf;
+	padding: 1.5% 2%;
+	color: #fff;
+	position: relative;
+	z-index: 5;
+	font-size: 25px;
+	width: 67.99%;
+	font-weight: bold;
+}
+.post-icerik{
+	width: 69%;
+	padding: 1%;
+	float: right;
+	font-size: 18px;
+	color: #4d4d4f;
+}
+.subcat-list{
+	display: table;
+	width: 90%;
+	margin: 4% 5%;
+	float: left;
+}
+.subcat-list ul li{
+	display: table;
+	width: 30%;
+	margin-left: 1%;
+	float: left;
+	margin-right: 2%;
+	position: relative;
+	height: 412px;
+	margin-bottom: 30.7px;
+	border: 1px solid #DFDFDF;
+	border-top: 5px solid #0089cf;
+	overflow: hidden;
+	background: linear-gradient(to bottom,#fff 1%,#f9f9f9 98%);
+}
+.catfloat{
+	width: 95%;
+	padding: 2.5%;
+	height: 100%;
+	display: table;
+	background-color: rgba(235, 235, 235, 0) !important;
+}
+.catdetail catpost{
+	width: 50%;
+	padding: 0 3%;
+	display: table-cell;
+	float: unset;
+	text-align: center;
+}
+.catpost h2{
+	font-size: 22px;
+}
+.catdetail h2{
+	color: #4d4d4f;
+	margin: 15.36px 0;
+	min-height: 76px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.catalink{
+	height: 55%;
+	display: table;
+	margin: 4%;
+	width: 350px;
+}
+
+.catcatimg{
+	height: 100%;
+	padding: 2%;
+	display: table;
+	width: 96%;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #DFDFDF;
+}
+.catimg{
+	position: relative;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.akademiksingle{
+	width: 96% !important;
+}
+.singletitle{
+	display: block;
+	float: left;
+	background: #0089cf;
+	padding: 1.5% 2%;
+	color: #fff;
+	position: relative;
+	z-index : 5;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.post_content_akademik{
+	width: 94% !important;
+	padding: 2% 4% 2% 2% !important;
+}
+.post_content{
+	float: right;
+	font-size: 18px;
+	color: #4d4d4f;
+}

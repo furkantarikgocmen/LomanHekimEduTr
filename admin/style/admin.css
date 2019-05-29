@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+	font-size: 14px;
+}
+
+#top{
+	width: 100%;
+	height: 125px;
+	background-color: #214761;
+	margin: auto;
+	float: left;
+/*	position: fixed;*/
+	border-color: #F0F0F0;
+	margin-bottom: 5px;
+}
+
+#top-sol{
+	width: 250px;
+	height: 125px;
+	float: left;
+	margin: auto;
+	padding: 10px 20px;
+}
+
+#top-sag{
+	float: right;
+	color: white;
+	font-size: 25px;
+	font-weight: 800;
+	margin: 10px 25px 10px 50px;
+}
+
+#govde{
+/*	background-color: purple;*/
+	float: left;
+	width: 100%;
+/*	min-height: 578px;*/
+	background-color: #2c3338;
+	max-height: 559px;
+}
+
+#footer{
+	background-color: blue;
+	float: left;
+	width: 100%;
+	height: 65px;
+}
+#footer h2{
+	margin-left: 20px;
+	color: #181B1D
+}
+#govde-sol{
+	float: left;
+	width: 250px;
+	height: 578px;
+	margin: auto;
+}
+#govde-sag{
+	float: left;
+/*	width: 1230px;*/
+	width: 1180px;
+	height: 578px;
+/*	background-color: #2c3338;*/
+	margin: 20px 0 0 50px;
+}
+
+.solbar-box{
+	float: left;
+	width: 250px;
+	height: 100px;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-size: contain, cover;
+	background-size: 125px 85px;
+	background-position: center;
+	
+}
+
+.solbar-box-baslik{
+	width: 250px;
+	height: 20px;
+	margin: 10px auto;
+	color: white;
+	float: left;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+}
+.solbar-box-icerik{
+/*	background-color: black;*/
+	width: 250px;
+	height: 60px;
+	float: left;
+}
+
+.solbar-box-icerik-altBaslik{
+	width: 250px;
+	height: 20px;
+	float: left;
+	margin-top: 5px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+a {
+  color: white;
+	text-decoration: none;
+}
+
+.solbar-box-icerik a:hover{
+	font-size: 28px;
+}
+
+#tablo {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+/*	width: auto;*/
+	margin: auto;
+	background-color: #ddd;
+/*	max-width: 700px;*/
+	float: left;
+}
+
+#tablo td, #tablo th, #tablo select {
+  border: 1px solid #2c3338;
+  padding: 8px;
+/*	width: inherit;*/
+}
+
+
+/*#tablo tr:hover {background-color: #ddd;}*/
+
+#tablo th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+/*  background-color: #4CAF50;*/
+  color: white;
+}
+
+/*tablo CSS*/
+/*form butonları değişecek*/
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+/*  background: #4CAF50;*/
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+
+/* Butonlar*/
+
+.buton{
+	display: inline-block;
+	padding: 6px 12px;
+/*	margin-bottom: 0;*/
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin: 0 auto;
+	float: left;
+}
+
+.buton-mavi{
+	color: #FFFFFF;
+	background-color: #428bca;
+	border-color: #357ebd;
+	margin-left: 5px;
+}
+.buton-mavi:hover{
+	color: #FFFFFF;
+	background-color: #3071a9;
+	border-color: #285e8e;
+}
+
+.buton-kirmizi{
+	color: #FFFFFF;
+	background-color: #d9534f;
+	border-color: #d43f3a;
+}
+.buton-kirmizi:hover{
+	color: #FFFFFF;
+	background-color: #c9302c;
+	border-color: #ac2925;
+}
+
+.buton-yesil{
+	color: #FFFFFF;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	margin-left: 5px;
+}
+.buton-yesil:hover{
+	color: #FFFFFF;
+	background-color: #449d44;
+	border-color: #398439;
+}
+/*Dashboard*/
+#dashboard-anaBlok{
+	width: 1150px;
+	height: 500px;
+}
+#dashboardBloksolust{
+	width: 550px;
+	height: 225px;
+	float: left;
+/*
+	border: 1px solid;
+	border-radius: 1px;
+*/
+}
+#dashboardBloksagust{
+	width: 550px;
+	height: 225px;
+	float: right;
+}
+#dashboardBloksolalt{
+	width: 550px;
+	height: 225px;
+	float: left;
+	margin-top: 50px;
+}
+#dashboardBloksagalt{
+	width: 550px;
+	height: 225px;
+	float: right;
+	margin-top: 50px;
+}
+.dashboardBlokUstKisim{
+	width: 550px;
+	height: 160px;
+	float: left;
+	border: 2px solid;
+	border-radius: 6px;
+}
+
+.dashboardBlokUstKisimResim{
+	float: left;
+	width: 140px;
+	height: 120px;
+	margin: 20px;
+}
+.dashboardBlokUstKisimSag{
+	float: right;
+	width: 140px;
+	height: 120px;
+	margin: 20px;
+}
+
+.dashboardBlokUstKisimSagSayi{
+	text-align: center;
+	width: 140px;
+	height: 80px;
+	font-weight: 900;
+	font-size: 70px;
+	color: white;
+}
+.dashboardBlokUstKisimSagyazi{
+	text-align: center;
+	width: 140px;
+	height: 60px;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+}
+
+.dashboardBlokAltKisim{
+	width: 550px;
+	height: 65px;
+	float: left;
+	background-color: #FFFFFF;
+	border: 2px solid;
+	border-radius: 6px;
+}
+
+.dashboardBlokAltKisimSolyazi{
+	text-align: left;
+	width: 140px;
+	height: 40px;
+	font-weight: 500;
+	font-size: 20px;
+	margin-top: 25px;
+	float: left;
+	margin-left: 12.5px;
+}
+
+.dashboardBlokAltKisimSolisaret{
+	width: 40px;
+	height: 40px;
+	margin-top: 12.5px;
+	float: right;
+	margin-right: 12.5px;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
