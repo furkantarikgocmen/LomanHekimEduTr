@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+ mysqllokmanhekim:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    container_name: mysqllokmanhekim
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: toor
+    ports:
+    - 3306:3306
+ websitelokmanhekim:
+    build: website
+    ports:
+     - "80:80"

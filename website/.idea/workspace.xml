@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57cf6d48-6da4-4199-943d-0d26979f64dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../admin/controller/duyuru_ekle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/duyuru_guncelle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/duyuru_sil_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/etkinlik_ekle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/etkinlik_guncelle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/etkinlik_sil_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/haber_ekle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/haber_guncelle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/haber_sil_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/kullanici_ekle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/kullanici_guncelle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/kullanici_sil_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/login_control.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/sayfa_ekle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/sayfa_guncelle_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/controller/sayfa_sil_islem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/arrowKırmızı.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/arrowMavi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/arrowSarı.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/arrowYeşil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/duyuru.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/etkinlik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/haber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/kullanici.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/logout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/images/sayfa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/lib/sql.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/anasayfa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/duyuru.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/duyuru_ekle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/duyuru_guncelle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/etkinlik.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/etkinlik_ekle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/etkinlik_guncelle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/_plugins/findreplace/fckplugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/_plugins/findreplace/find.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/_plugins/findreplace/find.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/_plugins/findreplace/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/_plugins/findreplace/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/_plugins/findreplace/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/_plugins/findreplace/replace.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/_plugins/findreplace/replace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/_plugins/samples/fckplugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/adobeair/application.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/adobeair/icons/128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/adobeair/icons/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/adobeair/icons/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/adobeair/icons/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/adobeair/package.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/adobeair/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/adobeair/sample01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/adobeair/sample01_cert.pfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/afp/fck.afpa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/afp/fck.afpa.code" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/afp/sample01.afp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/afp/sample02.afp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/afp/sample03.afp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/afp/sample04.afp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/afp/sampleposteddata.afp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/asp/sample01.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/asp/sample02.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/asp/sample03.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/asp/sample04.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/asp/sampleposteddata.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/cfm/sample01.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/cfm/sample01_mx.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/cfm/sample02.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/cfm/sample02_mx.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/cfm/sample03.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/cfm/sample03_mx.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/cfm/sample04.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/cfm/sample04_mx.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/cfm/sampleposteddata.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/assets/sample06.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/assets/sample11_frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/assets/sample14.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/assets/sample14.styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/assets/sample15.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/assets/sample16.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/assets/sample16.fla" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/assets/sample16.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/assets/swfobject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/html/sample16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/lasso/sample01.lasso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/lasso/sample02.lasso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/lasso/sample03.lasso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/lasso/sample04.lasso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/lasso/sampleposteddata.lasso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/perl/sample01.cgi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/perl/sample02.cgi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/perl/sample03.cgi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/perl/sample04.cgi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/perl/sampleposteddata.cgi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/php/sample01.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/php/sample02.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/php/sample03.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/php/sample04.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/php/sampleposteddata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/py/sample01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/py/sampleposteddata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/sample.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_samples/sampleslist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_upgrade.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_whatsnew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/_whatsnew_history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckcontextmenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckdataprocessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckdocumentfragment_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckdocumentfragment_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckdomrange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckdomrange_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckdomrange_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckdomrangeiterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckeditingarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckelementpath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckenterkey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckevents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckhtmliterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckicon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckiecleanup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckimagepreloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckkeystrokehandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckmenublock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckmenublockpanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckmenuitem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckpanel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckplugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckspecialcombo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckstyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarbreak_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarbreak_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarbutton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarbuttonui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarfontformatcombo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarfontscombo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarfontsizecombo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarpanelbutton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarspecialcombo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fcktoolbarstylecombo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckw3crange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckxml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckxml_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/classes/fckxml_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fck_othercommands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckblockquotecommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckcorestylecommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckfitwindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckindentcommands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckjustifycommands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fcklistcommands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fcknamedcommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckpasteplaintextcommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckpastewordcommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckremoveformatcommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckshowblocks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckspellcheckcommand_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckspellcheckcommand_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fckstylecommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fcktablecommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/commandclasses/fcktextcolorcommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/fckconstants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/fckeditorapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/fckjscoreextensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/fckscriptloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fck_contextmenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fck_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fck_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckbrowserinfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckcodeformatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckcommands.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckconfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckdebug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckdebug_empty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckdialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckdocumentprocessor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckdomtools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcklanguagemanager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcklisthandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcklistslib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckplugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckregexlib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckselection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckselection_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckselection_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckstyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcktablehandler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcktablehandler_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcktablehandler_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcktoolbaritems.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcktoolbarset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcktools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcktools_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fcktools_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckundo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckurlparams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckxhtml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckxhtml_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckxhtml_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/_source/internals/fckxhtmlentities.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/behaviors/disablehandles.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/behaviors/showtableborders.htc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/fck_editorarea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/fck_internal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/fck_showtableborders_gecko.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_address.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_blockquote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_div.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_h1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_h2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_h3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_h4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_h5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_h6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/block_pre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/fck_anchor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/fck_flashlogo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/fck_hiddenfield.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/fck_pagebreak.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/css/images/fck_plugin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/common/fck_dialog_common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/common/fck_dialog_common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/common/images/locked.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/common/images/reset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/common/images/unlocked.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_about/logo_fckeditor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_about/logo_fredck.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_about/sponsors/spellchecker_net.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_anchor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_colorselector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_div.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_docprops.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_docprops/fck_document_preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_flash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_flash/fck_flash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_flash/fck_flash_preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_hiddenfield.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_image/fck_image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_image/fck_image_preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_link/fck_link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_listprop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_paste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_radiobutton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_replace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_select/fck_select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_smiley.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_specialchar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/controlWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/controls.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellChecker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellchecker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellerStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_spellerpages/spellerpages/wordWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_tablecell.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_template/images/template1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_template/images/template2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_template/images/template3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_textarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dialog/fck_textfield.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dtd/fck_dtd_test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dtd/fck_xhtml10strict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/dtd/fck_xhtml10transitional.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/fckdebug.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/fckdialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/fckeditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/fckeditor.original.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/browser.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/browser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/frmactualfolder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/frmcreatefolder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/frmfolders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/frmresourceslist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/frmresourcetype.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/frmupload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/ButtonArrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/Folder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/Folder32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/FolderOpened.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/FolderOpened32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/FolderUp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/ai.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/avi.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/bmp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/cs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/default.icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/dll.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/doc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/exe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/fla.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/gif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/htm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/html.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/jpg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/js.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/mdb.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/mp3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/pdf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/png.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/ppt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/rdp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/swf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/swt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/txt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/vsd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/xls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/xml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/32/zip.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/ai.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/avi.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/bmp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/cs.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/default.icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/dll.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/doc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/exe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/fla.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/gif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/htm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/html.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/jpg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/js.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/mdb.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/mp3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/pdf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/png.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/ppt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/rdp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/swf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/swt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/txt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/vsd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/xls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/xml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/icons/zip.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/browser/default/js/fckxml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/asp/basexml.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/asp/class_upload.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/asp/commands.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/asp/config.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/asp/connector.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/asp/io.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/asp/upload.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/asp/util.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/aspx/config.ascx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/aspx/connector.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/aspx/upload.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/ImageObject.cfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/cf5_connector.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/cf5_upload.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/cf_basexml.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/cf_commands.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/cf_connector.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/cf_io.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/cf_upload.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/cf_util.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/config.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/connector.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/image.cfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/cfm/upload.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/lasso/config.lasso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/lasso/connector.lasso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/lasso/upload.lasso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/perl/basexml.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/perl/commands.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/perl/connector.cgi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/perl/io.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/perl/upload.cgi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/perl/upload_fck.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/perl/util.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/php/basexml.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/php/commands.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/php/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/php/connector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/php/io.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/php/phpcompat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/php/upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/php/util.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/connector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/fckcommands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/fckconnector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/fckoutput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/fckutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/htaccess.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/py/zope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/filemanager/connectors/uploadtest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/anchor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/arrow_ltr.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/arrow_rtl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/angel_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/angry_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/broken_heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/cake.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/confused_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/cry_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/devil_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/embaressed_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/envelope.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/kiss.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/lightbulb.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/omg_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/regular_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/sad_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/shades_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/teeth_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/thumbs_down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/thumbs_up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/tounge_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/whatchutalkingabout_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/smiley/msn/wink_smile.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/js/fckadobeair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/js/fckeditorcode_gecko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/js/fckeditorcode_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/_translationstatus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/en-uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/autogrow/fckplugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/bbcode/_sample/sample.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/bbcode/_sample/sample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/bbcode/fckplugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/dragresizetable/fckplugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/placeholder/fck_placeholder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/placeholder/fckplugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/placeholder/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/placeholder/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/placeholder/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/placeholder/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/placeholder/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/placeholder/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/placeholder/placeholder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/simplecommands/fckplugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/plugins/tablecommands/fckplugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/_fckviewstrips.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/fck_dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/fck_dialog_ie6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/fck_editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/fck_strip.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/dialog.sides.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/dialog.sides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/dialog.sides.rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/sprites.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/sprites.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/toolbar.arrowright.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/toolbar.buttonarrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/toolbar.collapse.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/toolbar.end.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/toolbar.expand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/toolbar.separator.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/default/images/toolbar.start.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/fck_dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/fck_dialog_ie6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/fck_editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/fck_strip.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/dialog.sides.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/dialog.sides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/dialog.sides.rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/sprites.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/sprites.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/toolbar.arrowright.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/toolbar.bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/toolbar.buttonarrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/toolbar.collapse.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/toolbar.end.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/toolbar.expand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/toolbar.separator.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/office2003/images/toolbar.start.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/fck_dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/fck_dialog_ie6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/fck_editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/fck_strip.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/dialog.sides.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/dialog.sides.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/dialog.sides.rtl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/sprites.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/sprites.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/toolbar.arrowright.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/toolbar.buttonarrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/toolbar.buttonbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/toolbar.collapse.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/toolbar.end.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/toolbar.expand.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/toolbar.separator.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/editor/skins/silver/images/toolbar.start.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckconfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor.afp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor.asp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor.cfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor.lasso" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor_php4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckeditor_php5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckpackager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckstyles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fcktemplates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/fckutils.cfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/fckeditor/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/haber.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/haber_ekle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/haber_guncelle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/kullanici.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/kullanici_ekle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/kullanici_guncelle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/menu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/sayfa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/sayfa_ekle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/pages/sayfa_guncelle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/style/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/style/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anasayfa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../icerik.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/bap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/facebook-f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/footerlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/footertelefon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/galeri.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/image-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/kutuphane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/layer-group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/lhusem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/map-marker-alt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/neden-biz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/uluslararasi-ogrenci.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/db.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/duyuru.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/duyuru.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/duyuru.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/etkinlik.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/etkinlik.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/etkinlik.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/haber.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/haber.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/haber.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/kullanici.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/kullanici.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/kullanici.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/sayfalar.MYD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/sayfalar.MYI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ip_no_2019/sayfalar.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/dateConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/sql.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/banner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/duyurular.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/etkinlikler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/haberler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/hizlibaglantilar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/ortamenu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pages/solmenu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tumicerik.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-364214796">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="1" />
+          <entry key="php" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dockerfile" value="1" />
+          <entry key="PHP" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="43" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/sql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>include('</find>
+      <find>include_once</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/admin/pages/admin.php" />
+        <option value="$PROJECT_DIR$/admin/controller/etkinlik_guncelle_islem.php" />
+        <option value="$PROJECT_DIR$/admin/controller/haber_ekle_islem.php" />
+        <option value="$PROJECT_DIR$/admin/controller/sayfa_guncelle_islem.php" />
+        <option value="$PROJECT_DIR$/pages/haberler.php" />
+        <option value="$PROJECT_DIR$/pages/etkinlikler.php" />
+        <option value="$PROJECT_DIR$/icerik.php" />
+        <option value="$PROJECT_DIR$/lib/sql.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="77" />
+    <option name="y" value="-9" />
+    <option name="width" value="1347" />
+    <option name="height" value="689" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57cf6d48-6da4-4199-943d-0d26979f64dd" name="Default Changelist" comment="" />
+      <created>1562169211359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562169211359</updated>
+      <workItem from="1562169212667" duration="1432000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1432000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ortamenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/sayfa_guncelle_islem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/haber_ekle_islem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controller/etkinlik_guncelle_islem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pages/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/etkinlikler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/haberler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/duyurular.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anasayfa.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icerik.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+docker exec -i mysqllokmanhekim mysql -uroot -ptoor mysql < ip_no_2019.sql
