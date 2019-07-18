@@ -1,4 +1,8 @@
-<?php 
+<?php
+session_start();
+if($_SESSION['login']=="true")
+{
+
 $eId = $_GET['id'];
 
 if(isset($eId))
@@ -9,4 +13,7 @@ if(isset($eId))
 }
 else
 	header("location:../pages/admin.php?s=etkinlik&sil=false");
+}
+else
+	header('location:../index.php?hata=yetkisizErisimReddedildi');
 ?>

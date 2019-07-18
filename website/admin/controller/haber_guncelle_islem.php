@@ -1,4 +1,8 @@
 <?php
+session_start();
+if($_SESSION['login']=="true")
+{
+	
 $haberId = $_GET['d_id'];
 $haberBaslik = $_POST['txtAdi'];
 $icerik = $_POST['icerik'];
@@ -13,4 +17,7 @@ if(isset($haberId)){
 else{
 	header('location:../pages/admin.php?s=haber&guncelle=false');
 }
+}
+else
+	header('location:../index.php?hata=yetkisizErisimReddedildi');
 ?>

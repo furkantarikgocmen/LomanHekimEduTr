@@ -1,4 +1,7 @@
 <?php
+session_start();
+if($_SESSION['login']=="true")
+{
 
 $etkinlikBaslik = $_POST['txtAdi'];
 $icerik = $_POST['icerik'];
@@ -15,4 +18,7 @@ if(isset($etkinlikBaslik) && isset($icerik)){
 else{
 	   header('location:../pages/admin.php?s=etkinlik&kayit=false');
    }
+}
+else
+	header('location:../index.php?hata=yetkisizErisimReddedildi');
 ?>

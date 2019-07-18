@@ -1,4 +1,7 @@
 <?php
+session_start();
+if($_SESSION['login']=="true")
+{
 
 $sayfaBaslik = $_POST['txtAdi'];
 $icerik = $_POST['icerik'];
@@ -14,4 +17,7 @@ if(isset($sayfaBaslik) && isset($icerik)){
 else{
 	   header('location:../pages/admin.php?s=sayfa&kayit=false');
    }
+}
+else
+	header('location:../index.php?hata=yetkisizErisimReddedildi');
 ?>

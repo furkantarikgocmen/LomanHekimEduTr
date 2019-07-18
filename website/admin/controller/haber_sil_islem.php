@@ -1,4 +1,8 @@
-<?php 
+<?php
+session_start();
+if($_SESSION['login']=="true")
+{
+
 $hId = $_GET['id'];
 
 if(isset($hId))
@@ -9,4 +13,7 @@ if(isset($hId))
 }
 else
 	header("location:../pages/admin.php?s=haber&sil=false");
+}
+else
+	header('location:../index.php?hata=yetkisizErisimReddedildi');
 ?>

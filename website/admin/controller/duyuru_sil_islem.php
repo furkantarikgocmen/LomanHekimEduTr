@@ -1,4 +1,8 @@
-<?php 
+<?php
+session_start();
+if($_SESSION['login']=="true")
+{
+
 $dId = $_GET['id'];
 
 if(isset($dId))
@@ -9,4 +13,7 @@ if(isset($dId))
 }
 else
 	header("location:../pages/admin.php?s=duyuru&sil=false");
+}
+else
+	header('location:../index.php?hata=yetkisizErisimReddedildi');
 ?>

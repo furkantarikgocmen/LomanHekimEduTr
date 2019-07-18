@@ -1,4 +1,8 @@
-<?php 
+<?php
+session_start();
+if($_SESSION['login']=="true")
+{
+
 $kullaniciId = $_GET['id'];
 
 if(isset($kullaniciId))
@@ -9,4 +13,7 @@ if(isset($kullaniciId))
 }
 else
 	header("location:../pages/admin.php?s=kullanici&hata=1");
+}
+else
+	header('location:../index.php?hata=yetkisizErisimReddedildi');
 ?>

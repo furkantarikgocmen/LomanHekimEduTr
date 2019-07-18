@@ -1,4 +1,7 @@
-<?php
+session_start();session_start();session_start();<?php
+if($_SESSION['login']=="true")
+{
+
 include_once __DIR__."/../../lib/sql.php";
 $kullaniciId = $_GET['k_id'];
 $kullaniciAdi = $_POST['txtAdi'];
@@ -11,4 +14,7 @@ if(isset($kullaniciId) && isset($kullaniciAdi) && isset($kullaniciSifre)){
 else{
 	header('location:../pages/admin.php?s=kullanici&guncelle=false');
 }
+}
+else
+	header('location:../index.php?hata=yetkisizErisimReddedildi');
 ?>
